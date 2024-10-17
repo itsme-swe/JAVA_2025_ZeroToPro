@@ -19,5 +19,8 @@ public class quantifiers {
                                                       // the length.
 
     System.out.println(carName.matches("[a-z A-z]{5}")); // false bcoz length exceeds more than 5 letters.
+
+    System.out.println(carName.matches("[a-z A-z]{6}{8}")); // true bcoz carName "Virtus" is of min 6 letters and we can
+                                                            // exceed till 8 letters.
   }
 }
