@@ -10,3 +10,7 @@ public class ForEachLoop {
     }
   }
 }
+
+/*
+ * For-Each loop will be only used on Arrays and collections in java.
+ */
