@@ -8,9 +8,9 @@ public class CircleMainClass {
 
     Circle c2 = new Circle();
 
-    c1.radius = 7;
+    c1.radius = 7; // Assigning value to the property radius for c1 object.
 
-    c2.radius = 10;
+    c2.radius = 10; // Assigning value to the property radius for c2 object.
 
     System.out.println("Area: " + c1.area()); // Prints the area of the circle
 
